@@ -11,29 +11,74 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editText_modelo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Insira o modelo do carro"
-            android:inputType="textPersonName" />
+<!--        <EditText-->
+<!--            android:id="@+id/editText_modelo"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Insira o modelo do carro"-->
+<!--            android:inputType="textPersonName" />-->
 
-        <EditText
-            android:id="@+id/editText_placa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Insira o nº da placa"
-            android:inputType="textPersonName" />
+<!--        <EditText-->
+<!--            android:id="@+id/editText_placa"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Insira o nº da placa"-->
+<!--            android:inputType="textPersonName" />-->
 
-        <EditText
-            android:id="@+id/editText_cor"
+<!--        <EditText-->
+<!--            android:id="@+id/editText_cor"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Insira a cor "-->
+<!--            android:inputType="textPersonName" />-->
+
+        <com.google.android.material.textfield.TextInputLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Insira a cor "
-            android:inputType="textPersonName" />
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Insira o Modelo do Veículo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_modelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Insira a Placa do Veículo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_placa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Insira a Cor do Veículo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btn_editar"
