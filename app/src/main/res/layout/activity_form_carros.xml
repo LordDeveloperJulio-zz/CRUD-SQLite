@@ -39,6 +39,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Insira o Modelo do Veículo">
 
@@ -54,6 +55,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Insira a Placa do Veículo">
 
@@ -69,6 +71,7 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="Insira a Cor do Veículo">
 
@@ -84,6 +87,7 @@
             android:id="@+id/btn_editar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="Editar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

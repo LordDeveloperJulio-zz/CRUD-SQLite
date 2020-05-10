@@ -23,13 +23,14 @@
         <ListView
             android:id="@+id/carroLista"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
         </ListView>
 
         <Button
             android:id="@+id/btn_cadastrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="Cadastrar" />
 
     </LinearLayout>
